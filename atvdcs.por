@@ -13,7 +13,13 @@ programa
 				}senao{
 					mtz[i][j] = 0
 				}
-				escreva("\nEsta é a diagonal principal: [",i,"][",j,"]")
+				
+			}
+		}
+		para(inteiro i=0;i<10;i++){
+			para(inteiro j=0;j<10;j++){
+				escreva(mtz[i][j])
+				
 			}
 			escreva("\n")
 		}
@@ -24,9 +30,9 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 301; 
+ * @POSICAO-CURSOR = 338; 
  * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = {mtz, 6, 10, 3};
+ * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
  * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
  */
